@@ -5,7 +5,7 @@ import App from './components/App';
 //импорт компонента Провайдер
 import { Provider } from 'react-redux';
 //импорт объекта глобального состояния
-import { store } from './redux/store';
+import store from './redux/store';
 
 ReactDOM.render(
   <React.StrictMode>
